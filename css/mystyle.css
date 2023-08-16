@@ -1,0 +1,139 @@
+/* GENERAL */
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* END GENERAL */
+
+/* HEADER */
+
+header {
+  color: #ebebeb;
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.header-label {
+  margin: 10px 0px 10px 0px;
+}
+
+.header-website {
+  margin: 20px 0px 20px 0px;
+}
+
+header a:link,
+header a:visited,
+header a:active {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+header a:hover {
+  color: blue;
+}
+
+@media screen and (max-width: 640px) {
+  header a .header-label,
+  header a .header-website {
+    font-size: 15px;
+  }
+}
+
+/* END HEADER */
+
+/* DISCOVER SECTION */
+
+.discover-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/random-numbers.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.discover-section h1 {
+  font-family: "Teko", sans-serif;
+  font-size: 70px;
+}
+
+.discover-section h3 {
+  font-family: "Montserrat", sans-serif;
+}
+/* END DISCOVER SECTION  */
+/* GENERATOR */
+
+.generator-section {
+  background: radial-gradient(#ffffff, #004b89);
+  padding: 40px;
+}
+
+.generator-section form {
+  font-size: 30px;
+  font-family: fantasy;
+}
+
+.generator-section form .generator-title {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hr-line {
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
+@media screen and (max-width: 991px) {
+  .hr-line {
+    left: 0%;
+  }
+}
+
+.number-input-box {
+  width: 100px;
+  padding: 4px;
+}
+
+.one-option {
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+.results-box {
+  width: 100px;
+}
+
+.generator-btn {
+  margin: 20px 0px;
+  padding: 15px;
+  background: royalblue;
+  color: black;
+  letter-spacing: 0.2rem;
+}
+
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+/* END GENERATOR */
